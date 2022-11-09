@@ -22,11 +22,7 @@ function previous() {
     showCalendar(currentMonth, currentYear);
 }
 
-// function EnterDate(){
-//     today = (currentMonth === 11) ? currentYear + 1 : currentYear;
-//     currentMonth = (currentMonth + 1) % 12;
-//     showCalendar(today);
-// }
+
 
 function jump() {
     currentYear = parseInt(selectYear.value);
